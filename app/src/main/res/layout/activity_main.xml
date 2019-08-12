@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_launcher_foreground"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="View Type"
+        android:textSize="30sp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/listViewBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:textColor="#002AB8"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="List"/>
+        <Button
+            android:id="@+id/gridViewBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Grid"
+            android:background="#FFC107"
+            android:textColor="#002AB8"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_marginHorizontal="40dp"
+            />
+        <Button
+            android:id="@+id/multiViewBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:textColor="#002AB8"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Multi"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Enter Detail"
+        android:textSize="30sp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Name"
+        android:textSize="20sp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Age"
+        android:textSize="20sp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/ageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="Upload Image"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="#002AB8"-->
+        <!--android:textStyle="bold"-->
+        <!--android:fontFamily="cursive"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/uploadImgId"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Upload Image"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:padding="5dp"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgId"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Description"
+        android:textSize="20sp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/descriptionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/submitBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="#002AB8"
+        android:background="#FFC107"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="cursive" />
+
+</LinearLayout>
+</ScrollView>
