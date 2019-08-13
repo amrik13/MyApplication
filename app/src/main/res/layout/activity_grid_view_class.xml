@@ -6,14 +6,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".GridViewClass">
-
+<TextView
+    android:id="@+id/boyHeadId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textSize="25sp"
+    android:textColor="#fff"
+    android:background="#D44F11"
+    android:padding="5dp"
+    android:textStyle="bold"
+    android:fontFamily="cursive"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
-
+<TextView
+    android:id="@+id/girlHeadId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textSize="25sp"
+    android:textColor="#fff"
+    android:background="#D44F11"
+    android:padding="5dp"
+    android:textStyle="bold"
+    android:fontFamily="cursive"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewId2"
         android:layout_width="wrap_content"

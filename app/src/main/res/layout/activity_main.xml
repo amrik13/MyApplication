@@ -38,6 +38,7 @@
             android:textColor="#002AB8"
             android:textStyle="bold"
             android:fontFamily="cursive"
+            android:layout_marginHorizontal="40dp"
             android:padding="5dp"
             android:text="List"/>
         <Button
@@ -45,23 +46,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Grid"
+            android:text="Multiple"
             android:background="#FFC107"
             android:textColor="#002AB8"
             android:textStyle="bold"
             android:fontFamily="cursive"
             android:layout_marginHorizontal="40dp"
             />
-        <Button
-            android:id="@+id/multiViewBtnId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#FFC107"
-            android:textColor="#002AB8"
-            android:textStyle="bold"
-            android:fontFamily="cursive"
-            android:padding="5dp"
-            android:text="Multi"/>
+        <!--<Button-->
+            <!--android:id="@+id/multiViewBtnId"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#FFC107"-->
+            <!--android:textColor="#002AB8"-->
+            <!--android:textStyle="bold"-->
+            <!--android:fontFamily="cursive"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="Grid"/>-->
 
     </LinearLayout>
     <TextView
