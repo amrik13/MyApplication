@@ -7,14 +7,19 @@
 
     <ImageView
         android:id="@+id/imgId"
-        android:layout_width="70dp"
-        android:layout_margin="20dp"
-        android:layout_height="70dp" />
+        android:layout_width="80dp"
+        android:layout_margin="15dp"
+        android:layout_height="80dp" />
     <TextView
         android:id="@+id/textId"
         android:textSize="20dp"
-        android:layout_marginLeft="20dp"
+        android:textColor="#002AB8"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
 
 </LinearLayout>

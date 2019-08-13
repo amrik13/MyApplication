@@ -16,14 +16,16 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 public class AdapterClass extends RecyclerView.Adapter<AdapterClass.VHolder> {
-    ArrayList<String> imgList = new ArrayList<>();
-    ArrayList<String> textList = new ArrayList<>();
+    ArrayList<String> imgList;
+    ArrayList<String> textList;
     Context context;
 
     AdapterClass(ArrayList<String> imgList,ArrayList<String> textList, Context context){
         this.imgList = imgList;
         this.textList = textList;
         this.context = context;
+        imgList = new ArrayList<>();
+        textList = new ArrayList<>();
     }
     @NonNull
     @Override
